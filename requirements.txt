@@ -1,9 +1,10 @@
-streamlit==1.26.0
-Pillow>=10.0.0
-requests==2.31.0
-beautifulsoup4==4.12.2
-lxml==5.1.0
-numpy>=1.26.0
-pandas>=2.0.3
-matplotlib>=3.7.2
-plotly>=5.18.0 
+--upgrade pip
+streamlit
+Pillow
+requests
+beautifulsoup4
+lxml
+numpy
+pandas
+matplotlib
+plotly
