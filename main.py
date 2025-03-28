@@ -279,9 +279,9 @@ def main():
         <div class="section">
             <h2>자기소개</h2>
             <p>
-                안녕하세요! 저는 웹 개발과 인공지능에 관심이 많은 개발자입니다.
-                다양한 프로젝트 경험을 통해 실무 능력을 키워왔으며,
-                새로운 기술을 배우고 적용하는 것을 좋아합니다.
+                어떻게 하면 생산적인 모델을 구현하는지 매일 고찰하는 개발자입니다.
+                현재는 개발부터 서비스 모델 배포까지의 과정을 공부하고 있으며
+                새로운 기술에 대해 매일 지식을 업데이트 중입니다.
             </p>
         </div>
         """, unsafe_allow_html=True)
@@ -642,6 +642,7 @@ def main():
         
         # 블로그 포스트 URL 목록 - 최신 포스트가 맨 위에 오도록 정렬 (딕셔너리 형식으로 변경)
         velog_posts = {
+            "Perfect prompt builder(GPTs)" : "https://velog.io/@bunhine0452/Perfect-prompt-builder-%EC%99%84%EB%B2%BD%ED%95%9C-%ED%94%84%EB%A1%AC%ED%8F%AC%ED%8A%B8-%EC%83%9D%EC%84%B1%EA%B8%B0-GPTs"
             "LLM 파인튜닝 및 양자화 편의성 툴킷" : "https://velog.io/@bunhine0452/3.-%ED%97%88%EA%B9%85%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%AA%A8%EB%8D%B8-to-.gguf-%EC%9E%90%EB%8F%99%EB%B3%80%ED%99%98-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9E%90%EB%8F%99-%EC%A0%84%EC%B2%98%EB%A6%AC-%ED%8C%8C%EC%9D%B8%ED%8A%9C%EB%8B%9D-%ED%88%B4GUI",
             "Llama 3.2 사용하는 법 탐구": "https://velog.io/@bunhine0452/2.-Llama3.2-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%EB%B2%95-%ED%83%90%EA%B5%AC",
             "Llama 모델 다운로드 방법": "https://velog.io/@bunhine0452/1.llamadownload",
