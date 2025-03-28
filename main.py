@@ -642,7 +642,7 @@ def main():
         
         # 블로그 포스트 URL 목록 - 최신 포스트가 맨 위에 오도록 정렬 (딕셔너리 형식으로 변경)
         velog_posts = {
-            "Perfect prompt builder(GPTs)" : "https://velog.io/@bunhine0452/Perfect-prompt-builder-%EC%99%84%EB%B2%BD%ED%95%9C-%ED%94%84%EB%A1%AC%ED%8F%AC%ED%8A%B8-%EC%83%9D%EC%84%B1%EA%B8%B0-GPTs"
+            "Perfect prompt builder(GPTs)" : "https://velog.io/@bunhine0452/Perfect-prompt-builder-%EC%99%84%EB%B2%BD%ED%95%9C-%ED%94%84%EB%A1%AC%ED%8F%AC%ED%8A%B8-%EC%83%9D%EC%84%B1%EA%B8%B0-GPTs",
             "LLM 파인튜닝 및 양자화 편의성 툴킷" : "https://velog.io/@bunhine0452/3.-%ED%97%88%EA%B9%85%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%AA%A8%EB%8D%B8-to-.gguf-%EC%9E%90%EB%8F%99%EB%B3%80%ED%99%98-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9E%90%EB%8F%99-%EC%A0%84%EC%B2%98%EB%A6%AC-%ED%8C%8C%EC%9D%B8%ED%8A%9C%EB%8B%9D-%ED%88%B4GUI",
             "Llama 3.2 사용하는 법 탐구": "https://velog.io/@bunhine0452/2.-Llama3.2-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%EB%B2%95-%ED%83%90%EA%B5%AC",
             "Llama 모델 다운로드 방법": "https://velog.io/@bunhine0452/1.llamadownload",
