@@ -687,7 +687,7 @@ def main():
             # if st.button("캐시 새로고침", key="clear_cache", help="블로그 포스트 정보를 다시 로드합니다"):
             #     # 특정 함수의 캐시만 클리어
             #     fetch_all_posts_v1.clear()
-            #     st.experimental_rerun()
+            #     st.rerun()
         
         # 페이지네이션 파라미터
         POSTS_PER_PAGE = 3
@@ -699,7 +699,7 @@ def main():
         # 페이지 변경 함수
         def change_page(page):
             st.session_state.blog_page = page
-            st.experimental_rerun()
+            st.rerun()
             
         # 현재 페이지에 표시할 포스트
         current_page = st.session_state.blog_page
